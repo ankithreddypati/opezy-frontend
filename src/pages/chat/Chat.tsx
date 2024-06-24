@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { Checkbox, Panel, DefaultButton, TextField, SpinButton } from "@fluentui/react";
 import { SparkleFilled } from "@fluentui/react-icons";
 import readNDJSONStream from "ndjson-readablestream";
+import LazyLoad from 'react-lazyload';
 import garcia from "../../assets/garcia1.webp";
 import taco from "../../assets/taco.png";
 import veg from "../../assets/veg.png";
@@ -200,13 +201,16 @@ const Chat = () => {
                             <h2 className={styles.chatEmptyStateSubtitle}>Empowering Small Businesses with Big Technology</h2>
                             <div className={styles.cardscontainer}>
                             <div className={styles.cards}>
+                            <LazyLoad height={200} offset={100}>
                             <img
                                         src={garcia}
                                         alt="garcia image"
                                         aria-label="Link to github repository"
                                        
                                         className={styles.garcia}
+                                        
                                     />
+                                 </LazyLoad>
                             </div>
                             <div className={styles.cards}>
                                 <div className={styles.tasks} onClick={() => setActiveTask("products")}>products</div>
@@ -216,34 +220,46 @@ const Chat = () => {
                                                 <img src={taco}/>
                                             </div>
                                             <div className={styles.product}>
+                                            <LazyLoad height={200} offset={100}>
                                                 <img
                                                     src={tres}
                                                         
                                                 />
+                                                </LazyLoad>
+                                                
+
                                             </div><div className={styles.product}>
+                                            <LazyLoad height={200} offset={100}>
                                                 <img
                                                     src={veg}
 
                                                 />
+                                                </LazyLoad>
                                         
                                             </div>
                                             <div className={styles.product}>
+                                            <LazyLoad height={200} offset={100}>
                                                 <img
                                                     src={taco}
                                                         
                                                 />
+                                                </LazyLoad>
                                             </div>
                                             <div className={styles.product}>
+                                            <LazyLoad height={200} offset={100}>
                                                 <img
                                                     src={tres}
                                                         
                                                 />
+                                                </LazyLoad>
                                             </div>
                                             <div className={styles.product}>
+                                            <LazyLoad height={200} offset={100}>
                                                 <img
                                                     src={veg}
                                                         
                                                 />
+                                                </LazyLoad>
                                             </div>
                                             
 
