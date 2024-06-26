@@ -1,10 +1,10 @@
 {
   "name": "frontend",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.0.0",
   "type": "module",
   "engines": {
-    "node": "22.2.0"
+    "node": ">=14.0.0"
   },
   "scripts": {
     "dev": "vite",
