@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button } from "@fluentui/react-components";
 import { Database24Regular, QuestionCircle24Regular } from "@fluentui/react-icons"; // Import icons
 import { Panel, Text } from "@fluentui/react";
-import styles from './onboard.module.css';
+import styles from './Onboard.module.css';
 
 const Onboard: React.FC = () => {
     const [isonboardOverlayOpen, setIsonboardOverlayOpen] = useState(false);
