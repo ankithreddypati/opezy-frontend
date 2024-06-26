@@ -21,7 +21,7 @@ const TASK_EXAMPLES: Record<TaskType, string[]> = {
     sales: ["What is the demand for Veggie Burritos tomorrow ?","Which products sales are declining from Jan 2024 to Mar 2024 ?", "What is the most sold product for the month of May 2024?"],
     feedback: ["What is the most disliked dish according to customers and why ?", "Are there any insights on staff from the feedback ?", "What is the feedback on the introduction of alcohol from customers?"],
     inventory: ["Can you check how fresh the guacamole is?", "Are any items in the inventory expiring this week ?", "Can you check how fresh the Bell Peppers are?"],
-    expenses: ["can you detect any anomalies in the expenses from dec 2023 to may 2024?", "Can you identify which expense categories have shown an increase from December 2023 to May 2024?","can you detect any anomalies in the expenses from dec 2023 to may 2024?"],
+    expenses: ["can you detect any anomalies in the expenses from dec 2023 to may 2024?", "Can you identify which expense categories have shown an increase from December 2023 to May 2024?","what are some tips to cut business expenses?"],
     emails: ["Can you find any email about upcoming alcohol order ", "Can you send a mail cancelling the delivery of alcohol and informing that no longer need alchohol","Can you summarise the recent 10 important mails ?"],
     marketing: ["Send a mail to all customers about our new promotion on 1+1 offer on Veggie burrito ", "Did we get any tweets from customers as complaints ?","can you make a tweet wishing our customers Happy Cinco de Mayo"]
 

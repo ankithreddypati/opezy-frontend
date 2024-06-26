@@ -1,0 +1,14 @@
+.container {
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 6px; */
+    cursor: pointer;
+    margin-left: 10px; /* Adjust if needed */
+}
+
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}

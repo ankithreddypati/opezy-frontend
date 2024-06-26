@@ -107,6 +107,8 @@
 .commandsContainer {
     display: flex;
     align-self: flex-end;
+    gap: 12px;
+
 }
 
 .commandButton {

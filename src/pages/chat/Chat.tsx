@@ -29,6 +29,10 @@ import { QuestionInput } from "../../components/QuestionInput";
 import { ExampleList } from "../../components/Example";
 import { UserChatMessage } from "../../components/UserChatMessage";
 import { ClearChatButton } from "../../components/ClearChatButton";
+import {Help} from "../../components/Help";
+import { Onboard } from "../../components/Onboard";
+
+
 import { VectorSettings } from "../../components/VectorSettings";
 //import { useMsal } from "@azure/msal-react";
 
@@ -189,6 +193,8 @@ const Chat = () => {
     return (
         <div className={styles.container}>
             <div className={styles.commandsContainer}>
+                <Help />
+                <Onboard />
                 <ClearChatButton className={styles.commandButton} onClick={clearChat} disabled={!lastQuestionRef.current || isLoading} />
             </div>
             <div className={styles.chatRoot}>

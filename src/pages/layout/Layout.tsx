@@ -3,6 +3,7 @@ import { Outlet, NavLink, Link } from "react-router-dom";
 import github from "../../assets/github.svg";
 import linkedin from "../../assets/linkedin.svg";
 import website from "../../assets/website.png";
+import questionMark from "../../assets/github.svg"; 
 
 import styles from "./Layout.module.css";
 
@@ -35,8 +36,7 @@ const Layout = () => {
                                         src={linkedin}
                                         alt="Github logo"
                                         aria-label="Link to github repository"
-                                        // width="20px"
-                                        // height="20px"
+                                      
                                         className={styles.linkedinlogo}
                                     />
                                 </a>
@@ -47,8 +47,7 @@ const Layout = () => {
                                         src={website}
                                         alt="Github logo"
                                         aria-label="Link to github repository"
-                                        // width="20px"
-                                        // height="20px"
+                                        
                                         className={styles.websiteLogo}
                                     />
                                 </a>
