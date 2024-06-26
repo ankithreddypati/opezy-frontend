@@ -188,7 +188,6 @@ const Chat = () => {
         setSelectedAnswer(index);
     };
 
-    
 
     return (
         <div className={styles.container}>
