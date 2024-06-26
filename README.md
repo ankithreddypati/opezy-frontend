@@ -2,6 +2,7 @@
 
 used as resource for azure web app deployement
 
-backend here : https://github.com/ankithreddypati/opezy
+backend is here : https://github.com/ankithreddypati/opezy
+app deployed on : https://opezy.ankithreddy.me
 
 
