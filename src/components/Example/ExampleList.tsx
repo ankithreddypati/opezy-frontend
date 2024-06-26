@@ -9,7 +9,7 @@ const DEFAULT_EXAMPLES: string[] = [
 ];
 
 const GPT4V_EXAMPLES: string[] = [
-    "Compare the impact of interest rates and GDP in financial markets.",
+    "Compare the impact of interest rates  financial markets.",
     "What is the expected trend for the S&P 500 index over the next five years?",
     "Can you identify any correlation between oil prices and stock market trends?"
 ];
