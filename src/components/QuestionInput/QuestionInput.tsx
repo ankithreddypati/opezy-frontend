@@ -14,7 +14,6 @@ interface Props {
     clearOnSend?: boolean;
 }
 
-// Define the types for the SpeechRecognition API
 interface SpeechRecognition extends EventTarget {
     continuous: boolean;
     interimResults: boolean;
